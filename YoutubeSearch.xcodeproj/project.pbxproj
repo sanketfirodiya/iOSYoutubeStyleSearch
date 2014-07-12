@@ -1,0 +1,464 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FB1090CC1971D28800735577 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB1090CB1971D28800735577 /* Foundation.framework */; };
+		FB1090CE1971D28800735577 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB1090CD1971D28800735577 /* CoreGraphics.framework */; };
+		FB1090D01971D28800735577 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB1090CF1971D28800735577 /* UIKit.framework */; };
+		FB1090D61971D28800735577 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FB1090D41971D28800735577 /* InfoPlist.strings */; };
+		FB1090D81971D28800735577 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FB1090D71971D28800735577 /* main.m */; };
+		FB1090DC1971D28800735577 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FB1090DB1971D28800735577 /* AppDelegate.m */; };
+		FB1090DE1971D28800735577 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB1090DD1971D28800735577 /* Images.xcassets */; };
+		FB1090E51971D28800735577 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB1090E41971D28800735577 /* XCTest.framework */; };
+		FB1090E61971D28800735577 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB1090CB1971D28800735577 /* Foundation.framework */; };
+		FB1090E71971D28800735577 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB1090CF1971D28800735577 /* UIKit.framework */; };
+		FB1090EF1971D28800735577 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FB1090ED1971D28800735577 /* InfoPlist.strings */; };
+		FB1090F11971D28800735577 /* YoutubeSearchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FB1090F01971D28800735577 /* YoutubeSearchTests.m */; };
+		FB1090FB1971D2F400735577 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB1090FA1971D2F400735577 /* Main.storyboard */; };
+		FB1090FE1971D35100735577 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB1090FD1971D35100735577 /* ViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FB1090E81971D28800735577 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB1090C01971D28800735577 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB1090C71971D28800735577;
+			remoteInfo = YoutubeSearch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FB1090C81971D28800735577 /* YoutubeSearch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YoutubeSearch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB1090CB1971D28800735577 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FB1090CD1971D28800735577 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FB1090CF1971D28800735577 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FB1090D31971D28800735577 /* YoutubeSearch-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "YoutubeSearch-Info.plist"; sourceTree = "<group>"; };
+		FB1090D51971D28800735577 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FB1090D71971D28800735577 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FB1090D91971D28800735577 /* YoutubeSearch-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "YoutubeSearch-Prefix.pch"; sourceTree = "<group>"; };
+		FB1090DA1971D28800735577 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FB1090DB1971D28800735577 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FB1090DD1971D28800735577 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FB1090E31971D28800735577 /* YoutubeSearchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YoutubeSearchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB1090E41971D28800735577 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		FB1090EC1971D28800735577 /* YoutubeSearchTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "YoutubeSearchTests-Info.plist"; sourceTree = "<group>"; };
+		FB1090EE1971D28800735577 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FB1090F01971D28800735577 /* YoutubeSearchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YoutubeSearchTests.m; sourceTree = "<group>"; };
+		FB1090FA1971D2F400735577 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		FB1090FC1971D35100735577 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FB1090FD1971D35100735577 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FB1090C51971D28800735577 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB1090CE1971D28800735577 /* CoreGraphics.framework in Frameworks */,
+				FB1090D01971D28800735577 /* UIKit.framework in Frameworks */,
+				FB1090CC1971D28800735577 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB1090E01971D28800735577 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB1090E51971D28800735577 /* XCTest.framework in Frameworks */,
+				FB1090E71971D28800735577 /* UIKit.framework in Frameworks */,
+				FB1090E61971D28800735577 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FB1090BF1971D28800735577 = {
+			isa = PBXGroup;
+			children = (
+				FB1090D11971D28800735577 /* YoutubeSearch */,
+				FB1090EA1971D28800735577 /* YoutubeSearchTests */,
+				FB1090CA1971D28800735577 /* Frameworks */,
+				FB1090C91971D28800735577 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FB1090C91971D28800735577 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FB1090C81971D28800735577 /* YoutubeSearch.app */,
+				FB1090E31971D28800735577 /* YoutubeSearchTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FB1090CA1971D28800735577 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FB1090CB1971D28800735577 /* Foundation.framework */,
+				FB1090CD1971D28800735577 /* CoreGraphics.framework */,
+				FB1090CF1971D28800735577 /* UIKit.framework */,
+				FB1090E41971D28800735577 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FB1090D11971D28800735577 /* YoutubeSearch */ = {
+			isa = PBXGroup;
+			children = (
+				FB1090FA1971D2F400735577 /* Main.storyboard */,
+				FB1090DA1971D28800735577 /* AppDelegate.h */,
+				FB1090DB1971D28800735577 /* AppDelegate.m */,
+				FB1090FC1971D35100735577 /* ViewController.h */,
+				FB1090FD1971D35100735577 /* ViewController.m */,
+				FB1090DD1971D28800735577 /* Images.xcassets */,
+				FB1090D21971D28800735577 /* Supporting Files */,
+			);
+			path = YoutubeSearch;
+			sourceTree = "<group>";
+		};
+		FB1090D21971D28800735577 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FB1090D31971D28800735577 /* YoutubeSearch-Info.plist */,
+				FB1090D41971D28800735577 /* InfoPlist.strings */,
+				FB1090D71971D28800735577 /* main.m */,
+				FB1090D91971D28800735577 /* YoutubeSearch-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FB1090EA1971D28800735577 /* YoutubeSearchTests */ = {
+			isa = PBXGroup;
+			children = (
+				FB1090F01971D28800735577 /* YoutubeSearchTests.m */,
+				FB1090EB1971D28800735577 /* Supporting Files */,
+			);
+			path = YoutubeSearchTests;
+			sourceTree = "<group>";
+		};
+		FB1090EB1971D28800735577 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FB1090EC1971D28800735577 /* YoutubeSearchTests-Info.plist */,
+				FB1090ED1971D28800735577 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FB1090C71971D28800735577 /* YoutubeSearch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB1090F41971D28800735577 /* Build configuration list for PBXNativeTarget "YoutubeSearch" */;
+			buildPhases = (
+				FB1090C41971D28800735577 /* Sources */,
+				FB1090C51971D28800735577 /* Frameworks */,
+				FB1090C61971D28800735577 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YoutubeSearch;
+			productName = YoutubeSearch;
+			productReference = FB1090C81971D28800735577 /* YoutubeSearch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FB1090E21971D28800735577 /* YoutubeSearchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB1090F71971D28800735577 /* Build configuration list for PBXNativeTarget "YoutubeSearchTests" */;
+			buildPhases = (
+				FB1090DF1971D28800735577 /* Sources */,
+				FB1090E01971D28800735577 /* Frameworks */,
+				FB1090E11971D28800735577 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB1090E91971D28800735577 /* PBXTargetDependency */,
+			);
+			name = YoutubeSearchTests;
+			productName = YoutubeSearchTests;
+			productReference = FB1090E31971D28800735577 /* YoutubeSearchTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FB1090C01971D28800735577 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = com.webawesome;
+				TargetAttributes = {
+					FB1090E21971D28800735577 = {
+						TestTargetID = FB1090C71971D28800735577;
+					};
+				};
+			};
+			buildConfigurationList = FB1090C31971D28800735577 /* Build configuration list for PBXProject "YoutubeSearch" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FB1090BF1971D28800735577;
+			productRefGroup = FB1090C91971D28800735577 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FB1090C71971D28800735577 /* YoutubeSearch */,
+				FB1090E21971D28800735577 /* YoutubeSearchTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FB1090C61971D28800735577 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB1090FB1971D2F400735577 /* Main.storyboard in Resources */,
+				FB1090D61971D28800735577 /* InfoPlist.strings in Resources */,
+				FB1090DE1971D28800735577 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB1090E11971D28800735577 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB1090EF1971D28800735577 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FB1090C41971D28800735577 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB1090FE1971D35100735577 /* ViewController.m in Sources */,
+				FB1090DC1971D28800735577 /* AppDelegate.m in Sources */,
+				FB1090D81971D28800735577 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB1090DF1971D28800735577 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB1090F11971D28800735577 /* YoutubeSearchTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FB1090E91971D28800735577 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB1090C71971D28800735577 /* YoutubeSearch */;
+			targetProxy = FB1090E81971D28800735577 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FB1090D41971D28800735577 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB1090D51971D28800735577 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FB1090ED1971D28800735577 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB1090EE1971D28800735577 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FB1090F21971D28800735577 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FB1090F31971D28800735577 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FB1090F51971D28800735577 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YoutubeSearch/YoutubeSearch-Prefix.pch";
+				INFOPLIST_FILE = "YoutubeSearch/YoutubeSearch-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FB1090F61971D28800735577 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YoutubeSearch/YoutubeSearch-Prefix.pch";
+				INFOPLIST_FILE = "YoutubeSearch/YoutubeSearch-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		FB1090F81971D28800735577 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/YoutubeSearch.app/YoutubeSearch";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YoutubeSearch/YoutubeSearch-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "YoutubeSearchTests/YoutubeSearchTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		FB1090F91971D28800735577 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/YoutubeSearch.app/YoutubeSearch";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YoutubeSearch/YoutubeSearch-Prefix.pch";
+				INFOPLIST_FILE = "YoutubeSearchTests/YoutubeSearchTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FB1090C31971D28800735577 /* Build configuration list for PBXProject "YoutubeSearch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB1090F21971D28800735577 /* Debug */,
+				FB1090F31971D28800735577 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB1090F41971D28800735577 /* Build configuration list for PBXNativeTarget "YoutubeSearch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB1090F51971D28800735577 /* Debug */,
+				FB1090F61971D28800735577 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FB1090F71971D28800735577 /* Build configuration list for PBXNativeTarget "YoutubeSearchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB1090F81971D28800735577 /* Debug */,
+				FB1090F91971D28800735577 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FB1090C01971D28800735577 /* Project object */;
+}

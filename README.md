@@ -5,5 +5,5 @@ Search embedded in the navigation bar provides several advantages -
 - Dims background when performing search, thus focusing completely on the search task
 - Is accessible even when user scrolls down
 
-![Youtube_Search](https://github.com/sanketfirodiya/iOSYoutubeStyleSearch/blob/master/images/Youtube_Search.jpg)
+![Youtube_Search](https://github.com/sanketfirodiya/iOSYoutubeStyleSearch/blob/master/Screenshots/Youtube_Search.jpg)
 
